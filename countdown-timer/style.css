@@ -52,3 +52,7 @@ h2 {
     width: 15rem;
     border-radius: 5px;
 }
+
+input[type=button] {
+    background-color: #aae8fe;
+}
