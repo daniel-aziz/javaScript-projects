@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Countdown Timer</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>2023 New Years Eve!</h1>
+    <h1 id="event-title">2023 New Years Eve!</h1>
 
     <div class="countdown-container">
         <div class="countdown-el days-c">
@@ -29,6 +28,16 @@
             <span>seconds</span>
         </div>
 
+
+    </div>
+    <br><br>
+    <h2>Your Event:</h2>
+    <div class="input-container">
+        <input class="inputs" type="text" id="input-title" placeholder="Title:">
+        <br><br>
+        <input class="inputs" type="date" id="input-date" >
+        <br><br>
+        <input class="inputs" type="button" value="Click Me!" onclick="submit()">
     </div>
 </body>
 </html>
