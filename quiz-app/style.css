@@ -30,6 +30,13 @@ body {
     padding: 2rem;
 }
 
+h2 {
+    padding: 1rem;
+    text-align: center;
+    font-family: inherit;
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
