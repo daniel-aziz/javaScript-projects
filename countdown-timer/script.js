@@ -13,17 +13,17 @@ console.log(initDate)
 console.log(initTitle)
 
 function submit() {
-    
+
     //TITLE 
     const userTitle = document.getElementById('input-title').value;
     console.log(userTitle)
-    titleElem.innerText = (userTitle !== undefined || userTitle !== "" )? initTitle : userTitle;
+    titleElem.innerText = (userTitle !== undefined || userTitle !== "") ? initTitle : userTitle;
 
 
     // DATE
     const userDate = document.getElementById('input-date').value;
     console.log(userDate)
-    initDate = (userDate === undefined || userDate === "")? initDate : userDate;
+    initDate = (userDate === undefined || userDate === "") ? initDate : userDate;
 
     countDown();
 }
