@@ -50,6 +50,7 @@ h2 {
 .inputs {
     height: 2rem;
     width: 15rem;
+    border: none;
     border-radius: 5px;
 }
 
