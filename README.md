@@ -19,7 +19,6 @@ Simple quiz app
 ## 3. Drawing App 
 Drwaing app with basic functions
 
-<a href="https://ibb.co/Npjm5MR"><img src="https://i.ibb.co/Npjm5MR/2022-04-04-153228.png" alt="image"></a>
-</br>
+<a href="https://ibb.co/xYMTNVR"><img src="https://i.ibb.co/G9VSqgb/image2.png" /></a>
 
 
