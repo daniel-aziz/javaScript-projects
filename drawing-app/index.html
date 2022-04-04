@@ -11,7 +11,22 @@
 </head>
 
 <body>
-    <h1>Hello Drawing App!</h1>
+    <div class="header">
+        <h1>Draw Something!</h1>
+    </div>
+    <br />
+    <div class="canvas-container">
+        <canvas id="canvas" width="750px" height="500px">
+
+        </canvas>
+    </div>
+    <div class="toolbox">
+        <button id="clear">🔥</button>
+        <button id="increase">+</button>
+        <span>Size: <span id="size"></span></span>
+        <button id="decrease">-</button>
+        <input id="color" type="color"/>
+    </div>
 </body>
 
 </html>

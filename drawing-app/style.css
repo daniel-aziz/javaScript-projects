@@ -5,6 +5,43 @@
 }
 
 body {
+    background-color: rgb(252, 230, 203);
     font-family: Fredoka,Arial, Helvetica, sans-serif;
     margin: 0;
+  
+}
+body > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.canvas-container {
+    min-height: 50vh;
+}
+
+canvas {
+    border-radius: 10px;
+    border: 1px dashed rgb(63, 62, 62);
+}
+
+ #increase, #decrease {
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    width:100px ;
+    height: 25px;
+    background-color: aliceblue;
+}
+
+#clear, #color {
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    width:50px ;
+    height: 25px;
+    background-color: aliceblue;
+}
+
+ button:hover {
+    background-color: rgb(189, 221, 249);
 }
