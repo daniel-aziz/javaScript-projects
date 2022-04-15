@@ -7,4 +7,45 @@
 body {
     font-family: Fredoka,Arial, Helvetica, sans-serif;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    padding: 5rem;
+    background-color: whitesmoke;
+    color: #313030;
+}
+
+body.dark {
+    background-color: #313030;
+    color: whitesmoke;
+}
+
+
+#toggle {
+    position: fixed;
+    top: 2%;
+    left: 90%;
+    border: none;
+    border-radius: 6px;
+    height: 25px;
+    width: 120px;
+    background-color: #313030;
+    color: whitesmoke;
+}
+
+#toggle.dark {
+    background-color: whitesmoke;
+    color: #313030;
+}
+
+
+#toggle:hover {
+    background-color: #555555;
+}
+
+#toggle:active {
+    transform: scale(0.97);
 }
