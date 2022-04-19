@@ -22,3 +22,8 @@ Drwaing app with basic functions
 <a href="https://ibb.co/xYMTNVR"><img src="https://i.ibb.co/G9VSqgb/image2.png" /></a>
 
 
+## 4. Toggle Dart Mode 
+App to toggle the between day mode and dark mode in an application
+
+
+
